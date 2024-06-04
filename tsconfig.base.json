@@ -14,6 +14,7 @@
     "baseUrl": ".",
     "paths": {
       "@my-org/*": ["libs/*"],
+      "nb-ui-native": ["packages/nb-ui-native/src/index.ts"],
       "nb-ui-web": ["packages/nb-ui-web/src/index.ts"]
     }
   },
