@@ -1,0 +1,9 @@
+{
+  "name": "nb-ui-native",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/nb-ui-native/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project nb-ui-native --web",
+  "targets": {}
+}
