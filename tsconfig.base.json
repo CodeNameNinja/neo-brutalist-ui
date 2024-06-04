@@ -1,0 +1,21 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": true,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es2015",
+    "module": "commonjs",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@my-org/*": ["libs/*"],
+      "nb-ui-web": ["packages/nb-ui-web/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
