@@ -3,10 +3,26 @@
   "version": "0.0.1",
   "main": "./index.js",
   "types": "./index.d.ts",
+  "scripts": {
+    "storybook": "storybook dev -p 6006 -c .storybook"
+  },
   "exports": {
     ".": {
       "import": "./index.mjs",
       "require": "./index.js"
     }
+  },
+  "dependencies": {
+    "react": "*",
+    "react-dom": "*"
+  },
+  "devDependencies": {
+    "@storybook/react": "^8.1.5",
+    "@storybook/react-vite": "^8.1.5",
+    "@storybook/addon-links": "^8.1.5",
+    "@storybook/addon-essentials": "^8.1.5",
+    "@storybook/addon-interactions": "^8.1.5",
+    "@nrwl/storybook": "^19.2.0",
+    "@nrwl/react": "latest"
   }
 }
