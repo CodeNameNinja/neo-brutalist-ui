@@ -1,4 +1,4 @@
-export default ({ config }) => ({
+module.export = ({ config }) => ({
   ...config,
   name: "HelloWorld",
   slug: "expo-template-blank-typescript",
