@@ -12,6 +12,8 @@ function App() {
 
 let AppEntryPoint = App;
 
+console.log(Constants.expoConfig.extra.storybookEnabled)
+
 if (Constants.expoConfig?.extra?.storybookEnabled === "true") {
   AppEntryPoint = require("./.ondevice").default;
 }
